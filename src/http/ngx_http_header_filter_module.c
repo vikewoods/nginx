@@ -1,4 +1,3 @@
-
 /*
  * Copyright (C) Igor Sysoev
  * Copyright (C) Nginx, Inc.
@@ -46,8 +45,8 @@ ngx_module_t  ngx_http_header_filter_module = {
 };
 
 
-static char ngx_http_server_string[] = "Server: VE Development (c) 2014 by Vik Ewoods" CRLF;
-static char ngx_http_server_full_string[] = "Server: VE Development (c) 2014 by Vik Ewoods" CRLF;
+static char ngx_http_server_string[] = "Server: VE Development ASP.NET (c) 2014 by Vik Ewoods " CRLF;
+static char ngx_http_server_full_string[] = "Server: VE Development ASP.NET (c) 2014 by Vik Ewoods" CRLF;
 
 
 static ngx_str_t ngx_http_status_lines[] = {
